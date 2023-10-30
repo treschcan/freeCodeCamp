@@ -1,0 +1,22 @@
+* {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-and-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar {
+    margin-left: auto
+    position: fixed;
+    top: 0;
+}
+

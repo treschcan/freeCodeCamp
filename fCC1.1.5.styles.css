@@ -1,0 +1,51 @@
+html {
+    background-image: url("https://www.marylandmatters.org/wp-content/uploads/2021/09/GettyImages-1178310599-1.jpg")
+  }
+  
+  body {
+    background-color: 
+  }
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  div {
+    background-color: rgba(120,120,120,82%);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  
+  input {
+    display: block;
+    margin: 15px;
+  }
+  
+  select {
+    display: block;
+    margin: 15px;
+  }
+  
+  .inline {
+    display: inline;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  .block {
+    display: block;
+    margin: 15px;
+  }
+  
+  input[type="submit"]{
+    margin-top: 50px;
+  }

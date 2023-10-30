@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="fCC1.1.5.styles.css"></link>  
+    <head>
+      <meta charset="UTF-8">
+      <h1 id="title">Missouri Medical Marijuana Survey</h1>
+      <p id="description">Please give us some feedback about your experiences so far, thank you!</p>
+    </head>
+    <body>
+      <form id="survey-form">
+        <label id="name-label">Your Name
+          <input type="text" id="name" placeholder="Your Name" required>
+        </label>
+        <label id="email-label">Your Email Address
+          <input type="email" id="email" placeholder="Email Address" required>
+        </label>
+        <label id="number-label">Your Age (years)
+          <input type="number" id="number" placeholder="Age" min="15" max="120">
+        </label>
+      
+        <label for="med/rec">Medical or Recreational?
+          <fieldset>
+            <label for="medical-patient"><input type="radio" id="medical-patient" value="medical" name="medical-recreational" class="inline"> Medical</label>
+            <label for="recreational-patient"><input type="radio" id="recreational-patient" value="recreational" name="medical-recreational" class="inline">Recreational</label>
+          </fieldset>
+        </label>
+    
+        <label id="dropdown-label">Preferred Consumption Method:
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Bongs/Water Pipes</option>
+            <option value="2">One-hitters/Chillums</option>
+            <option value="3">Self Rolled-Blunt or Joint</option>
+            <option value="4">Pre-Roll-Blunt or Joint</option>
+            <option value="5">Vapes, Pods or Cartridges</option>
+            <option value="6">Concentrate Vaporizer-Portable or Desktop</option>
+            <option value="7">Concentrate w/ glass piece</option>
+            <option value="8">Topicals</option>
+            <option value="9">Edibles</option>
+          </select>
+        </label>
+        <label>Dispensary Programs (select all you'd like to see): 
+        </label>
+        <fieldset>
+            <label><input type="checkbox" id="1" value="1" class="inline">Wide Product Selection</label>
+            <label><input type="checkbox" id="2" value="2" class="inline">Convenient Location</label>
+            <label><input type="checkbox" id="3" value="3" class="inline">Educational Resources</label>
+            <label><input type="checkbox" id="4" value="4" class="inline">Daily-Promotions/Sales</label>
+            <label><input type="checkbox" id="5" value="5" class="inline">Online Menu/Ordering</label>
+            <label><input type="checkbox" id="6" value="6" class="inline">Loyalty Rewards Program</label>
+            <label><input type="checkbox" id="7" value="7" class="inline">Community Events</label>
+        </fieldset>
+        <label>Any Other Suggestions, or Comments?
+          <textarea class="block" id="suggestions" name="suggestions" rows="4" cols="50" placeholder="Your input here"></textarea>
+        </label>
+        <input type="submit" value"Submit" id="submit" />
+      </form>
+    </body>
+</div>
+</html>
